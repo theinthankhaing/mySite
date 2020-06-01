@@ -1,0 +1,214 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin-top: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  /*rem (root em) is used not to be inheriented.to get 90% >> 100%*90px/16px or 5.625em. this is to be dynamic. 16 px = 100% or 16px = 1em*/
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+a {
+  color: #11999E;
+  padding: 20px;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+  line-height: 2;
+}
+
+.middle-container {
+  margin: 50px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  line-height: 2;
+  padding:50px 0 20px;
+  margin-bottom: 0;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.red {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+  left: 200px;
+}
+
+.blue {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+  right: 104px;
+}
+
+.yellow {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+  right: 108px;
+}
+
+.red-ab {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+
+.blue-ab {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+
+.yellow-ab {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+.profile-pic {
+  width: 15%;
+}
+
+.skill-row {
+  margin: 50px 50px 50px 50px;
+  text-align: left;
+  line-height: 2;
+}
+
+.skills1 {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skills2 {
+  width: 12%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  background: #6233ed9e;
+  background-image: linear-gradient(to bottom, #6233ed, #1e62d0);
+  border-radius: 20px;
+  color: #eaf6f6;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 50;
+  padding: 10px;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #6233ed 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #337FED 1px;
+  background: #66bfbf;
+  background-image: linear-gradient(to bottom, #66bfbf, #3D94F6);
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.con{
+  animation: blinker 2s linear infinite;
+  color: black;
+  font-weight: bold;
+}
+
+.btn-pad{
+  margin-top: 50px;
+}
+
+.footer-link{
+  text-decoration: none;
+  color: #11999E;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+
+.contact-me{
+  line-height: 2;
+}
+
+#weight {
+  font-weight: normal;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
